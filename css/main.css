@@ -705,13 +705,25 @@ footer .made-by span {
   }
 }
 
-@media screen and (-width: 768px) {
+@media screen and (min-width: 768px) {
   .js-menu {
     display: block;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .humburger {
+    margin-top: -54px;
+    height: 35px;
+    width: 35px;
+  }
+  .logo {
+    height: 70px;
+  }
+  .logo span {
+    font-size: 35px;
+    line-height: 70px;
+  }
   .js-menu {
     display: none;
   }
